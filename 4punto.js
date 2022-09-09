@@ -13,6 +13,6 @@ numSables.forEach(function (num) {
 let filtrar = numSables.filter(function (num) {
     return num < 0  
 })
-
-console.log(`los  sables defectuosos con energía negativa fueron  ${filtrar}`)
+console.log(filtrar)
+console.log(`los  sables defectuosos con energía negativa fueron  ${filtrar.length}`)
 
